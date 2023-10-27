@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CLASIFICADOR DE TEXTO</title>
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .container {
+            padding: 20px;
+        }
+        .button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>CLASIFICADOR DE TEXTO</h1>
+    <div class="container">
+        <p>La Organización de las Naciones Unidas (ONU) es una organización internacional fundada en 1945 para promover la cooperación y la paz mundial. Su objetivo es abordar los problemas globales y fomentar el diálogo entre naciones.</p>
+        <p>Bienvenido al clasificador de texto. Para realizar una predicción, debes cargar un archivo de Excel con los textos a clasificar.</p>
+        <a href="{%url 'archivos:upload' %}"><button class="button">Cargar textos</a> </button>
+    </div>
+</body>
+</html>
